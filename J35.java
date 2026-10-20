@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Stack;
 
 public class J35 {
 
@@ -126,9 +127,9 @@ public class J35 {
             }
 
             if (pos == 1) {
-                head = head.next; 
+                head = head.next;
                 System.out.println("Node deleted from position " + pos);
-                //We can call this function also deleteAtBeginning();
+                // We can call this function also deleteAtBeginning();
                 return;
             }
 
@@ -146,6 +147,30 @@ public class J35 {
             temp.next = temp.next.next;
 
             System.out.println("Node deleted from position " + pos);
+        }
+
+        void reverseList() {
+            if (head == null) {
+                System.out.println("List is Empty.");
+                return;
+            }
+
+            Stack<Integer> stack = new Stack<>();
+
+            Node temp = head;
+
+            while (temp != null) {
+                stack.push(temp.val);
+                temp = temp.next;
+            }
+
+            System.out.print("Linked List in Reverse: ");
+
+            while (!stack.isEmpty()) {
+                System.out.print(stack.pop() + " -> ");
+            }
+
+            System.out.println("NULL");
         }
 
         // Display
@@ -190,13 +215,13 @@ public class J35 {
 
         while (true) {
 
-            int choice = getValidInteger(sc, "Enter Choice (1-8): ");
+            int choice = getValidInteger(sc, "Enter Choice (1-9): ");
 
-            if (choice >= 1 && choice <= 8) {
+            if (choice >= 1 && choice <= 9) {
                 return choice;
             }
 
-            System.out.println("Choice must be between 1 and 8.");
+            System.out.println("Choice must be between 1 and 9.");
         }
     }
 
@@ -217,7 +242,8 @@ public class J35 {
             System.out.println("5. Delete at End");
             System.out.println("6. Delete at Position");
             System.out.println("7. Display");
-            System.out.println("8. Exit");
+            System.out.println("8. Reverse List");
+            System.out.println("9. Exit");
 
             choice = getValidChoice(sc);
 
@@ -257,11 +283,15 @@ public class J35 {
                     break;
 
                 case 8:
+                    list.reverseList();
+                    break;
+
+                case 9:
                     System.out.println("Program Ended.");
                     break;
             }
 
-        } while (choice != 8);
+        } while (choice != 9);
 
         sc.close();
     }
