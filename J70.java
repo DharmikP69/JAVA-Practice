@@ -29,3 +29,8 @@ public class J70 {
         System.out.println(anagrams("abb", "acc"));         // false
     }
 }
+
+//OPTIMAL Solution :- 
+// Approch : add the characters of first string in hashmap then use for each loop and travaers in the second loop and 
+//           decrese the frequency of that particular ch then use thired for each loop, for any character if frequency is not
+//           equal to zero then return false.            
