@@ -86,20 +86,14 @@ public class J92 {
     }
 }
 //Output : 
-// Enter your name : 
-// Dharmik
-// Enter your balance : 
-// 125698743
-// Enter your pin : 
-// 6403
+// Enter your name : Dharmik
+// Enter your balance : 1256987
+// Enter your pin : 6403
 // Hello Dharmik how are you ?
-// Enter your pin to check balance : 
-// 6403
-// Your balance is : 125698743
-// Enter withdrawl amount : 
-// 125896
-// Enter the pin : 
-// 6403
+// Enter your pin to check balance : 6403
+// Your balance is : 1256987
+// Enter withdrawl amount : 5698
+// Enter the pin : 6403
 // Your Transaction is being processed. Kindly wait.
 // Please collect your cash from the cash box.
-// After this withdrawl your current balance is : 125572847
+// After this withdrawl your current balance is : 1251289
