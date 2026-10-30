@@ -6,6 +6,7 @@ public class J82 {
         int left = 0;
 
         while(right < nums.length){
+
             if(nums[right]!=0){
                 int trmp = nums[right];
                 nums[right] = nums[left];
@@ -15,6 +16,7 @@ public class J82 {
             } else {
                 right++;
             }
+            
         }
     }
 

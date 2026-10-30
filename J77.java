@@ -1,10 +1,6 @@
 import java.util.*;
 public class J77 {
-
-    public static void sortColors(int[] nums) {
-       
-    }
-
+    
     public static void main(String[] args) {
         int[] nums = { 0, 1, 1, 2, 0, 0, 1, 2, 0, 2, 1 };
          int z = 0;
