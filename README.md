@@ -107,3 +107,13 @@ Java practice programs, one file per problem.
 | J101 | Remove Duplicates from Sorted Array | Two pointers + in-place modification |
 | J102 | Container With Most Water | Two pointers + greedy approach |
 | J103 | Demonstrate Java Pass-by-Value | Object references + parameter passing |
+| J104 | Bank Account Management System | OOP + encapsulation + data validation |
+| J105 | 27. Remove Element | Two pointers + in-place replacement |
+| J106 | 977. Squares of a Sorted Array | Two pointers + sorted merging |
+| J107 | Integer Caching and Integer Overflow | Wrapper classes + type conversion |
+| J108 | 88. Merge Sorted Array | Two pointers + in-place merging |
+| J109 | 15. 3Sum | Sorting + two pointers |
+| J110 | 680. Valid Palindrome II | Two pointers + palindrome validation |
+| J111 | 42. Trapping Rain Water | Two pointers + greedy approach |
+| J112 | 345. Reverse Vowels of a String | Two pointers + character swapping |
+| J113 | 16. 3Sum Closest | Sorting + two pointers |
