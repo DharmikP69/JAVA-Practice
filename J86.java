@@ -5,11 +5,11 @@ public class J86 {
         int maxProfit = 0;
         
         for(int i = 0; i < prices.length; i++){
+            
             if(low > prices[i]){
                 low = prices[i];
             }
             
-
             maxProfit = Math.max(prices[i] - low,maxProfit);
         }
 
