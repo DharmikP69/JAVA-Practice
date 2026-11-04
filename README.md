@@ -117,3 +117,5 @@ Java practice programs, one file per problem.
 | J111 | 42. Trapping Rain Water | Two pointers + greedy approach |
 | J112 | 345. Reverse Vowels of a String | Two pointers + character swapping |
 | J113 | 16. 3Sum Closest | Sorting + two pointers |
+| J114 | 1475. Final Prices With a Special Discount in a Shop | Monotonic stack |
+| J115 | 84. Largest Rectangle in Histogram | Monotonic stack |
