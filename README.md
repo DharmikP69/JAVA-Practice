@@ -119,3 +119,15 @@ Java practice programs, one file per problem.
 | J0113 | 16. 3Sum Closest | Sorting + two pointers |
 | J0114 | 1475. Final Prices With a Special Discount in a Shop | Monotonic stack |
 | J0115 | 84. Largest Rectangle in Histogram | Monotonic stack |
+| J0116 | 49. Group Anagrams | HashMap + sorting |
+| J0117 | Savings Account with Minimum Balance | OOP + inheritance + method overriding |
+| J0118 | 643. Maximum Average Subarray I | Sliding window |
+| J0119 | 219. Contains Duplicate II | HashSet + sliding window |
+| J0120 | Employee and Manager Salary Calculation | OOP + inheritance + method overriding |
+| J0121 | 209. Minimum Size Subarray Sum | Sliding window + two pointers |
+| J0122 | 3. Longest Substring Without Repeating Characters | Sliding window + HashSet |
+| J0123 | 567. Permutation in String | Sliding window + frequency array |
+| J0124 | Demonstrate Inheritance, Overriding and Polymorphism | OOP + inheritance + polymorphism |
+| J0125 | 438. Find All Anagrams in a String | Sliding window + frequency array |
+| J0126 | 424. Longest Repeating Character Replacement | Sliding window + frequency array |
+| J0127 | 1004. Max Consecutive Ones III | Sliding window + two pointers |
