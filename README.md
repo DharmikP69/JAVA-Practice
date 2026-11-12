@@ -131,3 +131,10 @@ Java practice programs, one file per problem.
 | J0125 | 438. Find All Anagrams in a String | Sliding window + frequency array |
 | J0126 | 424. Longest Repeating Character Replacement | Sliding window + frequency array |
 | J0127 | 1004. Max Consecutive Ones III | Sliding window + two pointers |
+| J0128 | 904. Fruit Into Baskets | Sliding window + HashMap |
+| J0129 | 76. Minimum Window Substring | Sliding window + HashMap |
+| J0130 | 239. Sliding Window Maximum | Monotonic deque |
+| J0131 | Demonstrate Polymorphism and Method Overloading | OOP + inheritance + polymorphism |
+| J0132 | Demonstrate String Pool and StringBuilder | String immutability + StringBuilder |
+| J0133 | 14. Longest Common Prefix | Sorting + string comparison |
+| J0134 | 58. Length of Last Word | Reverse traversal + string processing |
