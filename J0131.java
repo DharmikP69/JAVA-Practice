@@ -6,10 +6,10 @@ class Animal {
 }
 
 class Dog extends Animal {
-    String name = "Dog-field";
+    //String name = "Dog-field";
     @Override void sound() { System.out.println("Bark"); }
     void fetch() { System.out.println("Dog fetches"); }
-    static void info() { System.out.println("Dog static"); }
+    //static void info() { System.out.println("Dog static"); }
 }
 
 class Cat extends Animal {
@@ -30,7 +30,7 @@ public class J0131 {
         a3.sound();                        // P3 Some sound
         a1.eat();                          // P4 Animal eat
         System.out.println(a1.name);       // P5 Animal-field 
-        Animal.info();                         // P6 Animal static but we should make it Animal.info / Dog,info() cause the compiler giving the warning
+        Animal.info();                     // P6 Animal static but we should make it Animal.info / Dog.info() cause the compiler giving the warning
         show(a1);                          // P7 show Animal
         show(new Dog());                   // P8 show Dog
 

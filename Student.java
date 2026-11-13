@@ -12,7 +12,6 @@ class Student{
     public void setMarks(double marksOfStudent){
         if (marksOfStudent < 0 || marksOfStudent > 100) {
             System.out.println("Invalid marks.");
-            return;
         } else {
             marks = marksOfStudent;
         }
@@ -21,7 +20,6 @@ class Student{
     public void show(){
         System.out.println("Name : " + name);
         System.out.println("Marks is : " + marks);
-        return;
     }
 
 }
