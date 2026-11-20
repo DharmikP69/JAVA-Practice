@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Calculator{
 
-    private double a,b;
+    final private double a,b;
 
     public
         //Use of Constructor to get value of a & b
@@ -30,6 +30,7 @@ class Calculator{
     }
     }
 public class J0050 {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
